@@ -1,11 +1,11 @@
 # Site settings
 title: Levels Of Abstraction
-email: noam@avaaz.org
+email: levels-of-abstraction@avaaz.org
 description: > # this means to ignore newlines until "baseurl:"
   A software developer's blog.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://nfinkelstein.github.io" # the base hostname & protocol for your site
-github_username: nfinkelstein
+github_username: n-s-f
 include: ["_pages"]
 
 # Build settings
