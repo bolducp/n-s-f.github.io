@@ -1,6 +1,6 @@
 # Site settings
 title: Levels Of Abstraction
-email: levels-of-abstraction@avaaz.org
+email: noam@avaaz.org
 description: > # this means to ignore newlines until "baseurl:"
   A software developer's blog.
 baseurl: "" # the subpath of your site, e.g. /blog/
