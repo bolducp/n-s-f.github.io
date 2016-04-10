@@ -1,9 +1,9 @@
 # Site settings
-title: Levels Of Abstraction
-email: noam@avaaz.org
+title: Blog
+email: noam.finkelstein@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A software developer's blog.
-baseurl: "" # the subpath of your site, e.g. /blog/
+  A blog about software and statistics.
+kaseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://n-s-f.github.io" # the base hostname & protocol for your site
 github_username: n-s-f
 include: ["_pages"]
