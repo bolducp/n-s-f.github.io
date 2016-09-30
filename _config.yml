@@ -1,6 +1,6 @@
 # Site settings
 title: Blog
-email: noam@fastforwardlabs.com
+email: noam.finkelstein@jhu.edu
 description: A blog about software and statistics.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://n-s-f.github.io" # the base hostname & protocol for your site
