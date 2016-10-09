@@ -10,9 +10,20 @@ layout: default
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h1 class="page-heading">Talks</h1>
+
+  <ul class="post-list">
+    {% for talk in site.talks %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ talk.url | prepend: site.baseurl }}">{{ talk.title }}</a>
         </h2>
       </li>
     {% endfor %}

@@ -1,7 +1,7 @@
 # Site settings
-title: Blog
+title: n-s-f
 email: noam.finkelstein@jhu.edu
-description: A blog about software and statistics.
+description: stats
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://n-s-f.github.io" # the base hostname & protocol for your site
 github_username: n-s-f
@@ -10,4 +10,9 @@ include: ["_pages"]
 
 # Build settings
 markdown: kramdown
+
+collections:
+    talks:
+        output: true
+        permaklink: /talks/:path/
 
