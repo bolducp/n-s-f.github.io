@@ -41,7 +41,7 @@ Please interupt with questions / comments!
 
 - Run functions with a variety of inputs and check outputs
 
-- Replaces constantly reloading source and checking outputs manually
+- Replaces reloading source and checking outputs manually
 </section>
 
 <section data-markdown>
@@ -81,10 +81,18 @@ Test:
 
 <p>testthat is the best testing framework in R</p>
 
+<span class="fragment">
 <p>A few downsides relative to other languages:</p>
 <p>- tightly coupled with other 'tidyverse' packages (devtools)</p>
+<p>-- clearly designed for testing packages</p>
+<p>-- harder to use in other contexts</p>
+</span>
+<span class="fragment">
 <p>- ponderous setup</p>
+</span>
+<span class="fragment">
 <p>- minimal support for mocking and fixtures</p>
+</span>
 
 </section>
 
