@@ -309,7 +309,7 @@ magic('the column', data)
 </code></pre>
 </span>
 <span class="fragment">
-You can pass in arbitrary data for testing purposes (edge cases, etc.)
+You can pass in arbitrary data for testing purposes
 </span>
 </section>
 
