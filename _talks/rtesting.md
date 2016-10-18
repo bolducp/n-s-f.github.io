@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Automated testing in R (in progress...)"
+title: "Automated testing in R"
 ---
 
 <style>
@@ -33,9 +33,11 @@ Please interupt with questions / comments!
 </section>
 
 
-<section data-markdown>
+<section>
 
-## What is Automated Testing
+<h4>What is Automated Testing</h4>
+
+<section data-markdown>
 
 - Code that runs and checks itself
 
@@ -45,8 +47,6 @@ Please interupt with questions / comments!
 </section>
 
 <section data-markdown>
-
-## What is Automated Testing
 
 Function:
 
@@ -76,8 +76,32 @@ Test:
 </section>
 
 <section>
+<h2>Why test?</h2>
 
-<h2>Testing Framework</h2>
+<ol>
+<li><p><span class="fragment">
+Improve reliability
+</span></p></li>
+<li><p><span class="fragment">
+Facilitates refactoring
+</span></p></li>
+<li><p><span class="fragment">
+Improves code design
+</span></p></li>
+<li><p><span class="fragment">
+Makes large projects manageable
+</span></p></li>
+</ol>
+
+</section>
+
+</section>
+
+<section>
+
+<h4>Testing Framework</h4>
+
+<section>
 
 <p>testthat is the best testing framework in R</p>
 
@@ -119,9 +143,13 @@ Get it now!
 ```
 </section>
 
+</section>
+
+<section>
+<h4>Testing Best Practices</h4>
 <section data-markdown>
 
-## How to write a test
+How to write a test
 
 Function:
 
@@ -202,6 +230,8 @@ Test:
 - Integration Testing
 </span></p>
 
+
+</section>
 
 </section>
 
