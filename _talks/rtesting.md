@@ -361,6 +361,12 @@ You can go much deeper...
 
 </section>
 
+<section data-markdown>
+## Additional Resources
+[Hadley Wickham's Chapter on Testing](http://r-pkgs.had.co.nz/tests.html)
+[Gary Bernhardt's Talk on Testing with Boundaries](https://www.destroyallsoftware.com/talks/boundaries)
+</section>
+
 <section>
 <h2>Questions?</h2>
 </section>
