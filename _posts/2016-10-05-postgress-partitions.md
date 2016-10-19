@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Aggregating functions over postgres partitions"
-date:   2016-10-5
+date:   2016-10-05
 ---
 
 Postgres has a number of useful [window functions](https://www.postgresql.org/docs/9.3/static/functions-window.html).
