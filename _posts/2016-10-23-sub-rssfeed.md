@@ -16,6 +16,8 @@ Let's say you want to create a sub-feed for all your political content. Copy you
 
 Add an `if` statement immediately inside of the `for` loop that iterates over the posts, and use it to check whether a give post is tagged with the `politics` tag.
 
+This effectively tells Jekyll's templator not to include items in your RSS feed that you have not tagged as political.
+
 Once you've done this, your new `politics-feed.xml` will look like this:
 
 {% highlight xml %}{% raw %}
