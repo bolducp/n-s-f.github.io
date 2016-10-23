@@ -35,7 +35,12 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
+/**
+ * Set header fonts
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Molengo', sans-serif;
+}
 
 /**
  * Images
