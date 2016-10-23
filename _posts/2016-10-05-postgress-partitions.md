@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Aggregating functions over postgres partitions"
+title:  Aggregating functions over postgres partitions
 date:   2016-10-05
 ---
 

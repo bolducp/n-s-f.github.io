@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Writing a stubbing function in R"
+title: Writing a stubbing function in R
+tags: rstats
 date: 2016-10-23
 ---
 

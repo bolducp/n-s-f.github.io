@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "Automated testing in R"
+title: Automated testing in R
 ---
 
 <style>

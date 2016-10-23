@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Automated testing in statistical analysis"
+title: Automated testing in statistical analysis
+tags: rstats
 date:   2016-10-18
 ---
 
