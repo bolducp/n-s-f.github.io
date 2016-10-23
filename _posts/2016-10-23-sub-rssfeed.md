@@ -10,7 +10,7 @@ This post will demonstrate one way to split your rss feed into subfeeds using ta
 
 ### Creating the feed
 
-If you are already running a Jekyll site, there should already be a `feed.xml` in the base directory of your project. This represnts the RSS feed for all your posts.
+If you are running a Jekyll site, there should already be a `feed.xml` in the base directory of your project. This represnts the RSS feed for all your posts.
 
 Let's say you want to create a sub-feed for all your political content. Copy your `feed.xml` file over to a `politics-feed.xml` file, also in the base directory of your project.
 
