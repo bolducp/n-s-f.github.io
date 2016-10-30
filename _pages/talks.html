@@ -1,0 +1,14 @@
+---
+layout: page
+title: Talks
+permalink: /talks/
+---
+ <ul class="post-list">
+    {% for talk in site.talks %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ talk.url | prepend: site.baseurl }}">{{ talk.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>

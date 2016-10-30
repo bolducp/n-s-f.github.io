@@ -4,10 +4,30 @@
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 150px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    .avatar_wrapper {
+        text-align: center;
+
+        img {
+            max-height: 150px;
+            border-radius: 20%;
+            position: absolute;
+            left: 44%;
+
+            @media (max-width: 600px) {
+                position: relative;
+                left: 0;
+            }
+
+            @media (min-width: 601px) and (max-width: 800px) {
+                left: 41%
+            }
+        }
+    }
 }
 
 .site-title {
@@ -164,6 +184,11 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    margin-top: 50px;
+
+    @media (max-width: 600px) {
+        margin-top: 0;
+    }
 }
 
 .page-heading {
