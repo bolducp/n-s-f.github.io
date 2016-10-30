@@ -159,12 +159,12 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 1.2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 1.2));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding-right: 15px;;
+    padding-left: 15px;;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
